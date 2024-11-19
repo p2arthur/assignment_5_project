@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h2>Enter Five Numbers</h2>
+<h2>Enter Five Numbers <span>This is a new change from feature 1 - I was tasked to make this change while my team is asleep - thats why i created this branch again</span></h2>
 <form method="get" action="process.php">
     <input type="number" name="a" placeholder="Number A" value="<?= $_GET['a'] ?? $_POST['a'] ?? '' ?>"><br><br>
     <input type="number" name="b" placeholder="Number B" value="<?= $_GET['b'] ?? $_POST['b'] ?? '' ?>"><br><br>
